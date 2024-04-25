@@ -9,7 +9,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 body{
@@ -17,6 +16,11 @@ body{
   color: var(--main-color);
   font-family: monospace;
   text-transform: uppercase;
+}
+
+h1{
+  font-family: "Jersey 20", sans-serif;
+  margin-bottom: 1rem;
 }
 
 .text__container{
@@ -64,6 +68,7 @@ body{
 .version-game{
   position: absolute;
   bottom: 0;
+  right: 0;
 }
 
 .creat-by{
